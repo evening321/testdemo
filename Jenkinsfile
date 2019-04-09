@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('checkout') { 
             steps {
-            git '' 
+            git 'https://github.com/evening321/vetinary-care-solutions.git' 
             }
         }
         stage('Build') { 
